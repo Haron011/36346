@@ -1,0 +1,225 @@
+@import url(media.css);
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+}
+
+.container {
+    padding: 0 1vw;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+
+}
+ul {
+    list-style: none;
+    margin: 0;
+}
+.container {
+    width: 1260px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 190px;
+    background-color: #4CBFD8;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    /* gap: 30px; */
+}
+.header__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__logo span {
+    color: #080FB3;
+text-align: center;
+font-family: Abel;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.header__logo li {
+    color: #080FB3;
+text-align: center;
+font-family: Abel;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header__nav a {
+    text-decoration: none;
+    color: #000;
+text-align: center;
+font-family: Abel;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header__nav a:hover {
+    text-decoration: underline;
+}
+.header__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header__nav ul:last-child {
+    border-top: 1px solid #000;
+}
+.header__nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__column--right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.header__column--right a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 20px;
+    color: #000;
+text-align: center;
+font-family: Abel;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header__column--right ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.header__column--right li {
+    cursor: pointer;
+}
+.header__column--right li:first-child {
+    border-right: 1px solid #000;
+    padding-right: 10px;
+
+}
+
+.main {
+    padding-top: 3vw;
+}
+
+.xakaton2022 {
+    text-align: center;
+    font-size: 4vw;
+}
+
+.info1 {
+    max-width: 55vw;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-left: 6.5vw;
+    padding-top: 2vw;
+}
+
+.group1 {
+    max-width: 70vw;
+}
+.foto1 {
+    background-color: #000;
+    margin-top: 3vw;
+    z-index: 1;
+    padding: 0 3.5vw 0 4.5vw;
+    margin-bottom: 3VW;
+}
+
+.group1 {
+    max-width: 89vw;
+}
+
+.final1 {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.final2 {
+    padding-top: 1.5vw;
+    font-size: 1.5vw;
+    text-align: center;
+    max-width: 55vw;
+    margin-left: 22vw;
+}
+
+.footer {
+    background-color: #000;
+    color: white;
+    display: flex;
+}
+
+.contakt {
+    margin-top: 3vw;
+    margin-left: 9vw;
+    max-width: 14vw;
+}
+.kontac {
+    margin-left: 3vw;
+}
+
+.konta {
+    font-size: 2vw;
+}
+.kont {
+    font-size: 1.5vw;
+}
+
+.adres {
+    margin-top: 3vw;
+    margin-left: 9vw;
+    max-width: 14vw;
+}
+
+.ad {
+    margin-left: 3vw;
+}
+.adre {
+    font-size: 2vw;
+}
+
+.adr {
+    font-size: 1.5vw;
+}
+
+.bank {
+    margin-top: 3vw;
+    margin-left: 6vw;
+
+}
+.bank-kar {
+    margin-left: 9vw;
+}
+
+.ban {
+    font-size: 2vw;
+}
+
+.footer-logo {
+    margin-top: -1.5vw;
+}
+
+
